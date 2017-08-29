@@ -1,30 +1,7 @@
-koa-bodyparser
+@wize/koa-bodyparser
 ===============
 
-[![NPM version][npm-image]][npm-url]
-[![build status][travis-image]][travis-url]
-[![Coveralls][coveralls-image]][coveralls-url]
-[![David deps][david-image]][david-url]
-[![node version][node-image]][node-url]
-[![Gittip][gittip-image]][gittip-url]
-
-[npm-image]: https://img.shields.io/npm/v/koa-bodyparser.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/koa-bodyparser
-[travis-image]: https://img.shields.io/travis/koajs/bodyparser.svg?style=flat-square
-[travis-url]: https://travis-ci.org/koajs/bodyparser
-[coveralls-image]: https://img.shields.io/coveralls/koajs/bodyparser.svg?style=flat-square
-[coveralls-url]: https://coveralls.io/r/koajs/bodyparser?branch=master
-[david-image]: https://img.shields.io/david/koajs/bodyparser.svg?style=flat-square
-[david-url]: https://david-dm.org/koajs/bodyparser
-[node-image]: https://img.shields.io/badge/node.js-%3E=_0.11-green.svg?style=flat-square
-[node-url]: http://nodejs.org/download/
-[gittip-image]: https://img.shields.io/gittip/dead-horse.svg?style=flat-square
-[gittip-url]: https://www.gittip.com/dead-horse/
-
-
-a body parser for koa, base on [co-body](https://github.com/tj/co-body).
-
-___Notice: `koa-bodyparser@3` support `koa@2`, if you want to use this module with `koa@1`, please use `koa-bodyparser@2`.___
+A body parser for koa, base on [co-body](https://github.com/tj/co-body).
 
 ## Install
 
@@ -32,7 +9,7 @@ ___Notice: `koa-bodyparser@3` support `koa@2`, if you want to use this module wi
 
 ## Usage
 
-```js
+``` js
 var bodyParser = require('koa-bodyparser');
 var Koa = require('koa');
 

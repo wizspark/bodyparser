@@ -1,13 +1,3 @@
-/**!
- * koa-body-parser - index.js
- * Copyright(c) 2014
- * MIT Licensed
- *
- * Authors:
- *   dead_horse <dead_horse@qq.com> (http://deadhorse.me)
- *   fengmk2 <m@fengmk2.com> (http://fengmk2.com)
- */
-
 'use strict';
 
 /**

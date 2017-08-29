@@ -1,14 +1,14 @@
 {
-  "name": "koa-bodyparser",
-  "version": "3.0.0",
+  "name": "@wize/koa-bodyparser",
+  "version": "1.0.0",
   "description": "a body parser for koa",
   "main": "index.js",
   "scripts": {
-    "test": "make test"
+    "test": "mocha test"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/koajs/bodyparser.git"
+    "url": "git://github.com/wizspark/bodyparser.git"
   },
   "files": [
     "index.js"
@@ -20,15 +20,15 @@
     "koa",
     "body"
   ],
-  "author": "dead_horse <dead_horse@qq.com> (http://deadhorse.me)",
+  "author": "Wizni Inc.",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/koajs/body-parser/issues"
+    "url": "https://github.com/wizespark/bodyparser/issues"
   },
   "publishConfig": {
     "tag": "next"
   },
-  "homepage": "https://github.com/koajs/body-parser",
+  "homepage": "https://github.com/wizespark/bodyparser",
   "devDependencies": {
     "autod": "1",
     "istanbul": "~0.4.0",
@@ -38,7 +38,7 @@
     "supertest": "~0.9.0"
   },
   "dependencies": {
-    "co-body": "~4.0.0"
+    "co-body": "~5.1.1"
   },
   "engines": {
     "node": ">= 4"
