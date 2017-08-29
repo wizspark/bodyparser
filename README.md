@@ -5,7 +5,9 @@ A body parser for koa, base on [co-body](https://github.com/tj/co-body).
 
 ## Install
 
-[![NPM](https://nodei.co/npm/koa-bodyparser.png?downloads=true)](https://nodei.co/npm/koa-bodyparser/)
+``` javascript
+npm install @wize/koa-bodyparser
+```
 
 ## Usage
 
